@@ -1,0 +1,6 @@
+﻿  Using bundled DotNet SDK version: 6.0.302
+  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" CryptExplorerEditor Win64 Development -Project="D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\CryptExplorer.uproject" -WaitMutex -FromMsBuild
+  Log file: C:\Users\Joe\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer).
+  Target is up to date
+  Total execution time: 6.81 seconds
