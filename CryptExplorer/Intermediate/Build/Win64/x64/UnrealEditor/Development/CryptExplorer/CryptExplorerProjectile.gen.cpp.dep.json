@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal\\cryptexplorer\\unreal-crypt-explorer\\cryptexplorer\\intermediate\\build\\win64\\unrealeditor\\inc\\cryptexplorer\\uht\\cryptexplorerprojectile.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\cryptexplorer\\unreal-crypt-explorer\\cryptexplorer\\intermediate\\build\\win64\\x64\\cryptexplorereditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "d:\\unreal\\cryptexplorer\\unreal-crypt-explorer\\cryptexplorer\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cryptexplorer\\definitions.cryptexplorer.h",
+            "d:\\unreal\\cryptexplorer\\unreal-crypt-explorer\\cryptexplorer\\source\\cryptexplorer\\cryptexplorerprojectile.h",
+            "d:\\unreal\\cryptexplorer\\unreal-crypt-explorer\\cryptexplorer\\intermediate\\build\\win64\\unrealeditor\\inc\\cryptexplorer\\uht\\cryptexplorerprojectile.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CryptExplorer",
+			"Path": "D:\\Unreal\\CryptExplorer\\Unreal-Crypt-Explorer\\CryptExplorer\\Source\\CryptExplorer.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CryptExplorerEditor",
+			"Path": "D:\\Unreal\\CryptExplorer\\Unreal-Crypt-Explorer\\CryptExplorer\\Source\\CryptExplorerEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

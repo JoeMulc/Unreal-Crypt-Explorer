@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal\\CryptExplorer\\Unreal-Crypt-Explorer\\CryptExplorer\\Source\\CryptExplorer\\CryptExplorer.Build.cs",
+		"D:\\Unreal\\CryptExplorer\\Unreal-Crypt-Explorer\\CryptExplorer\\Source\\CryptExplorer.Target.cs",
+		"D:\\Unreal\\CryptExplorer\\Unreal-Crypt-Explorer\\CryptExplorer\\Source\\CryptExplorerEditor.Target.cs"
+	],
+	"EngineVersion": "5.2.1"
+}

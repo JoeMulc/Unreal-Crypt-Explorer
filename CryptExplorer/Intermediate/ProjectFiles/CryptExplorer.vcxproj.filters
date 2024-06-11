@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CryptExplorer.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CryptExplorer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CryptExplorerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CryptExplorer">
+      <UniqueIdentifier>{C88BFFDF-D6D0-39F7-8204-AE8172F2743D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CryptExplorer\CryptExplorer.Build.cs">
+      <Filter>Source\CryptExplorer</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CryptExplorer\CryptExplorer.cpp">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptExplorer\CryptExplorer.h">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptExplorer\CryptExplorerCharacter.cpp">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptExplorer\CryptExplorerCharacter.h">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptExplorer\CryptExplorerGameMode.cpp">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptExplorer\CryptExplorerGameMode.h">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptExplorer\CryptExplorerProjectile.cpp">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptExplorer\CryptExplorerProjectile.h">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptExplorer\TP_PickUpComponent.cpp">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptExplorer\TP_PickUpComponent.h">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptExplorer\TP_WeaponComponent.cpp">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptExplorer\TP_WeaponComponent.h">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
