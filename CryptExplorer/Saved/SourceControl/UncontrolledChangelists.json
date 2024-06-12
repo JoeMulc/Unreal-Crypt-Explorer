@@ -6,7 +6,8 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/CryptExplorer/Dungeon.umap",
-				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/MedievalDungeon/Materials/M_Tiling_Master.uasset"
+				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/MedievalDungeon/Materials/M_Tiling_Master.uasset",
+				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/MedievalDungeon/Blueprints/BP_Torch.uasset"
 			]
 		}
 	]
