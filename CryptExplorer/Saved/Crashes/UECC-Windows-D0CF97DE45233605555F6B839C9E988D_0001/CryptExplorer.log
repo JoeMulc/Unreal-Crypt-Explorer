@@ -7879,18 +7879,3 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.12-11.25.52:335][869]MaterialEditorStats: Shader Count: 6
 [2024.06.12-11.25.53:267][976]LogMaterialEditor: Saving and Compiling material M_Tiling_Master
 [2024.06.12-11.25.53:269][976]LogFileHelpers: InternalPromptForCheckoutAndSave started...
-[2024.06.12-11.25.55:557][976]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
-[2024.06.12-11.25.57:154][976]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.049974s
-[2024.06.12-11.26.01:067][976]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.000047s (3.961310s overbudget)
-[2024.06.12-11.26.01:662][976]LogSavePackage: Moving output files for package: /Game/MedievalDungeon/Materials/M_Tiling_Master
-[2024.06.12-11.26.01:662][976]LogSavePackage: Moving '../../../../../Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Saved/M_Tiling_Master6EBE0AE441527DCDE2C7AAB2D96F1A71.tmp' to '../../../../../Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/MedievalDungeon/Materials/M_Tiling_Master.uasset'
-[2024.06.12-11.26.01:666][976]LogFileHelpers: InternalPromptForCheckoutAndSave took 8.39 sec (total: 9.18 sec)
-[2024.06.12-11.26.01:675][976]AssetCheck: New page: Asset Save: M_Tiling_Master
-[2024.06.12-11.26.01:675][976]LogContentValidation: Display: Validating /Script/Engine.Material /Game/MedievalDungeon/Materials/M_Tiling_Master.M_Tiling_Master
-[2024.06.12-11.26.01:675][976]MaterialEditorStats: Base pass shader: 246 instructions
-[2024.06.12-11.26.01:675][976]MaterialEditorStats: Base pass shader with Surface Lightmap: 279 instructions
-[2024.06.12-11.26.01:675][976]MaterialEditorStats: Base pass vertex shader: 249 instructions
-[2024.06.12-11.26.01:675][976]MaterialEditorStats: Texture samplers: 8/16
-[2024.06.12-11.26.01:675][976]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
-[2024.06.12-11.26.01:675][976]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2024.06.12-11.26.01:675][976]MaterialEditorStats: Shader Count: 73
