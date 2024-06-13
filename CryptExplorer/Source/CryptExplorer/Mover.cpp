@@ -12,7 +12,7 @@ UMover::UMover()
 
 	// ...
 }
-
+ 
 
 // Called when the game starts
 void UMover::BeginPlay()
@@ -29,6 +29,9 @@ void UMover::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponent
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	UE_LOG(LogTemp, Display, TEXT("Working :)"));
+	AActor* owner = GetOwner();
+	FString ownerString = owner->GetActorNameOrLabel();
+
+	UE_LOG(LogTemp, Display, TEXT("owner: %s"), *ownerString);
 }
 
