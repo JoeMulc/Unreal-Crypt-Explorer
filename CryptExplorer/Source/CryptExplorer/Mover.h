@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Math/UnrealMathUtility.h"
 #include "Mover.generated.h"
 
 
@@ -24,5 +25,12 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+private:
+
+	UPROPERTY(EditAnywhere) FVector moveOffset;
+	UPROPERTY(EditAnywhere) float moveTime;
+	UPROPERTY(EditAnywhere) bool shouldMove;
+
+	FVector originalLocation;
 		
 };

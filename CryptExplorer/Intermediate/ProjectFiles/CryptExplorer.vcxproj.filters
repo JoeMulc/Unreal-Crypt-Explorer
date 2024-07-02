@@ -72,6 +72,12 @@
     <ClInclude Include="..\..\Source\CryptExplorer\CryptExplorerProjectile.h">
       <Filter>Source\CryptExplorer</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\CryptExplorer\Grabber.cpp">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptExplorer\Grabber.h">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\CryptExplorer\Mover.cpp">
       <Filter>Source\CryptExplorer</Filter>
     </ClCompile>
