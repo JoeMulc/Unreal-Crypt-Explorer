@@ -28,9 +28,13 @@ void UGrabber::BeginPlay()
 void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	FRotator rotation = GetComponentRotation();
-	FString rotationString = rotation.ToCompactString();
-	UE_LOG(LogTemp, Display, TEXT("Rotation: %s"), *rotationString);
-	// ...
+	//FRotator rotation = GetComponentRotation();
+	//FString rotationString = rotation.ToCompactString();
+	//UE_LOG(LogTemp, Display, TEXT("Rotation: %s"), *rotationString);
+	
+	UWorld* world = GetWorld();
+
+	float time = world->TimeSeconds;
+	UE_LOG(LogTemp, Display, TEXT("Time elapsed: %f"), time);
 }
 
