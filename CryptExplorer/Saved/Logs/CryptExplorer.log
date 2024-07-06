@@ -2423,3 +2423,385 @@ LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
 [2024.07.06-11.22.36:514][310]LogContentValidation: Display: Validating /Script/Engine.World /Game/CryptExplorer/Dungeon.Dungeon
 [2024.07.06-11.22.36:514][310]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_Statue_Pickup.BP_Statue_Pickup
 [2024.07.06-11.22.39:447][413]LogEditorViewport: Clicking Background
+[2024.07.06-11.47.25:464][620]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_PlayerCharacter.BP_PlayerCharacter
+[2024.07.06-11.47.25:464][620]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.06-11.47.25:464][620]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.06-11.47.25:673][620]LogSlate: Took 0.022901 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.06-11.47.52:513][687]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.07.06-11.47.52:513][687]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.07.06-11.47.54:670][939]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2024.07.06-11.47.54:883][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.07.06-11.48.30:164][550]LogDerivedDataCache: C:/Users/Joe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.452 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4550 files in 6158 folders with total size 779 MiB.
+[2024.07.06-11.53.10:865][491]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.07.06-11.53.11:228][532]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.07.06-11.54.00:253][541]LogLiveCoding: Display:    Creating library D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\Binaries\Win64\UnrealEditor-CryptExplorer.patch_2.lib and object D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\Binaries\Win64\UnrealEditor-CryptExplorer.patch_2.exp
+[2024.07.06-11.54.00:699][543]LogClass: UClass Grabber Reload.
+[2024.07.06-11.54.00:700][543]LogClass: Could not find existing class Grabber in package /Script/CryptExplorer for reload, assuming new or modified class
+[2024.07.06-11.54.00:713][543]Re-instancing Grabber after reload.
+[2024.07.06-11.54.00:833][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.07.06-11.54.01:322][544]Display: Reload/Re-instancing Complete: 1 class changed
+[2024.07.06-11.54.01:322][544]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.07.06-11.54.23:663][940]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.07.06-11.54.33:264][ 37]LogLiveCoding: Display:    Creating library D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\Binaries\Win64\UnrealEditor-CryptExplorer.patch_3.lib and object D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\Binaries\Win64\UnrealEditor-CryptExplorer.patch_3.exp
+[2024.07.06-11.54.36:621][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.07.06-11.54.37:004][ 43]LogAutomationController: Ignoring very large delta of 3.70 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.07.06-11.54.37:004][ 43]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2024.07.06-11.54.37:005][ 43]LogLiveCoding: Display: Live coding succeeded
+[2024.07.06-11.54.50:366][511]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.06-11.54.50:372][511]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.06-11.54.50:373][511]PIE: New page: PIE session: Dungeon (6 Jul 2024, 13:54:50)
+[2024.07.06-11.54.50:416][511]LogPlayLevel: Creating play world package: /Game/CryptExplorer/UEDPIE_0_Dungeon
+[2024.07.06-11.54.50:437][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022470s)
+[2024.07.06-11.54.50:437][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CryptExplorer/Dungeon.Dungeon to /Game/CryptExplorer/UEDPIE_0_Dungeon.Dungeon (0.022555s)
+[2024.07.06-11.54.50:437][511]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.06-11.54.50:438][511]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.06-11.54.50:438][511]LogAIModule: Creating AISystem for world Dungeon
+[2024.07.06-11.54.50:438][511]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2024.07.06-11.54.50:561][511]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2024.07.06-11.54.50:562][511]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.07.06-11.54.50:562][511]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.06-11.54.50:562][511]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.06-11.54.50:562][511]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.06-11.54.50:562][511]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.06-11.54.50:562][511]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.06-11.54.50:562][511]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.07.06-11.54.50:562][511]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.06-11.54.50:562][511]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.06-11.54.50:562][511]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.06-11.54.50:562][511]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.06-11.54.50:562][511]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.06-11.54.50:585][511]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.06-11.54.50:694][511]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2024.07.06-11.54.50:696][511]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.06-11.54.50:696][511]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.06-11.54.50:696][511]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.06-11.54.50:696][511]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.07.06-11.54.50:696][511]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.07.06-11.54.50:697][511]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.07.06-11.54.50:698][511]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.07.06-11.54.50:698][511]LogInit: FAudioDevice initialized with ID 7.
+[2024.07.06-11.54.50:698][511]LogAudio: Display: Audio Device (ID: 7) registered with world 'Dungeon'.
+[2024.07.06-11.54.50:698][511]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.07.06-11.54.50:701][511]LogLoad: Game class is 'BP_CryptExplorerGameMode_C'
+[2024.07.06-11.54.50:713][511]LogWorld: Bringing World /Game/CryptExplorer/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2024.07.06-12.54.50
+[2024.07.06-11.54.50:714][511]LogWorld: Bringing up level for play took: 0.012433
+[2024.07.06-11.54.50:716][511]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.07.06-11.54.50:718][511]PIE: Server logged in
+[2024.07.06-11.54.50:718][511]PIE: Play in editor total start time 0.347 seconds.
+[2024.07.06-11.54.50:906][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:907][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:907][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:908][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:908][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:908][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:909][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:909][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:910][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:910][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:910][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:911][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:911][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:911][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:912][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:912][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:913][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:913][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:913][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:914][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:918][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.54.50:918][511]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:751][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.06-11.55.00:751][277]LogWorld: BeginTearingDown for /Game/CryptExplorer/UEDPIE_0_Dungeon
+[2024.07.06-11.55.00:766][277]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2024.07.06-11.55.00:767][277]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.06-11.55.00:771][277]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.06-11.55.00:775][277]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.06-11.55.00:797][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.06-11.55.00:797][277]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.07.06-11.55.00:797][277]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.07.06-11.55.00:801][277]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.07.06-11.55.00:811][277]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2024.07.06-11.55.00:824][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:824][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:824][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:825][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:825][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:826][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:826][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:826][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:827][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:827][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:828][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:828][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:828][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:829][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:829][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:829][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:830][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:830][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:830][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:831][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:832][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:833][277]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.00:853][279]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.07.06-11.55.01:600][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:601][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:601][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:602][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:602][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:602][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:603][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:603][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:604][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:604][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:604][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:605][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:605][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:605][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:606][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:607][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:607][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:607][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:608][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.01:608][355]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:161][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:162][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:162][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:162][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:163][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:163][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:164][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:164][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:165][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:165][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:166][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:166][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:166][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:167][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:167][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:168][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:168][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:169][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:169][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:169][406]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:208][407]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:209][407]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.02:922][489]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.06-11.55.02:928][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.06-11.55.02:928][489]PIE: New page: PIE session: Dungeon (6 Jul 2024, 13:55:02)
+[2024.07.06-11.55.02:956][489]LogPlayLevel: Creating play world package: /Game/CryptExplorer/UEDPIE_0_Dungeon
+[2024.07.06-11.55.02:977][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020652s)
+[2024.07.06-11.55.02:977][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CryptExplorer/Dungeon.Dungeon to /Game/CryptExplorer/UEDPIE_0_Dungeon.Dungeon (0.020686s)
+[2024.07.06-11.55.02:977][489]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.06-11.55.02:977][489]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.06-11.55.02:977][489]LogAIModule: Creating AISystem for world Dungeon
+[2024.07.06-11.55.02:978][489]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2024.07.06-11.55.03:000][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.07.06-11.55.03:002][489]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.07.06-11.55.03:002][489]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.06-11.55.03:002][489]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.06-11.55.03:002][489]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.06-11.55.03:002][489]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.06-11.55.03:002][489]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.06-11.55.03:002][489]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.07.06-11.55.03:002][489]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.06-11.55.03:002][489]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.06-11.55.03:002][489]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.06-11.55.03:002][489]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.06-11.55.03:002][489]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.06-11.55.03:005][489]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.06-11.55.03:067][489]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2024.07.06-11.55.03:067][489]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.06-11.55.03:067][489]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.06-11.55.03:067][489]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.06-11.55.03:068][489]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.07.06-11.55.03:068][489]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.07.06-11.55.03:070][489]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.07.06-11.55.03:070][489]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.07.06-11.55.03:070][489]LogInit: FAudioDevice initialized with ID 8.
+[2024.07.06-11.55.03:070][489]LogAudio: Display: Audio Device (ID: 8) registered with world 'Dungeon'.
+[2024.07.06-11.55.03:070][489]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.07.06-11.55.03:072][489]LogLoad: Game class is 'BP_CryptExplorerGameMode_C'
+[2024.07.06-11.55.03:084][489]LogWorld: Bringing World /Game/CryptExplorer/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2024.07.06-12.55.03
+[2024.07.06-11.55.03:084][489]LogWorld: Bringing up level for play took: 0.011929
+[2024.07.06-11.55.03:086][489]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.07.06-11.55.03:088][489]PIE: Server logged in
+[2024.07.06-11.55.03:088][489]PIE: Play in editor total start time 0.161 seconds.
+[2024.07.06-11.55.03:211][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:212][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:212][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:213][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:213][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:214][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:214][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:215][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:215][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:216][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:216][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:216][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:217][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:217][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:218][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:218][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:219][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:219][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:220][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:220][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:220][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.03:221][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:776][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.06-11.55.11:776][128]LogWorld: BeginTearingDown for /Game/CryptExplorer/UEDPIE_0_Dungeon
+[2024.07.06-11.55.11:777][128]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2024.07.06-11.55.11:778][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.06-11.55.11:782][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.06-11.55.11:787][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.06-11.55.11:811][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.06-11.55.11:811][128]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.07.06-11.55.11:811][128]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.07.06-11.55.11:812][128]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.07.06-11.55.11:821][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.07.06-11.55.11:833][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:834][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:834][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:834][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:835][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:835][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:836][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:836][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:837][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:837][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:837][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:838][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:838][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:839][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:839][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:840][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:840][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:840][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:841][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:841][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:842][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:842][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.11:852][129]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.07.06-11.55.16:966][405]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.07.06-11.55.18:696][498]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.07.06-11.55.18:696][498]LogLiveCoding: Display: Live coding succeeded, no code changes detected
+[2024.07.06-11.55.26:253][703]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.07.06-11.55.27:714][778]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.07.06-11.55.27:714][778]LogLiveCoding: Display: Live coding succeeded, no code changes detected
+[2024.07.06-11.55.40:247][853]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2024.07.06-11.55.40:291][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.07.06-11.55.40:803][906]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.06-11.55.40:855][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PlayerCharacter" FILE="../../../../../Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/BP_PlayerCharacter.uasset" SILENT=true
+[2024.07.06-11.55.40:859][906]LogSavePackage: Moving output files for package: /Game/BP_PlayerCharacter
+[2024.07.06-11.55.40:860][906]LogSavePackage: Moving '../../../../../Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Saved/BP_PlayerCharacter197DF9C24642C035C00D83A2D19A8538.tmp' to '../../../../../Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/BP_PlayerCharacter.uasset'
+[2024.07.06-11.55.40:889][906]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 855 ms)
+[2024.07.06-11.55.40:932][906]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2024.07.06-11.55.40:932][906]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_PlayerCharacter.BP_PlayerCharacter
+[2024.07.06-11.55.42:417][999]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.06-11.55.42:423][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.06-11.55.42:423][999]PIE: New page: PIE session: Dungeon (6 Jul 2024, 13:55:42)
+[2024.07.06-11.55.42:445][999]LogPlayLevel: Creating play world package: /Game/CryptExplorer/UEDPIE_0_Dungeon
+[2024.07.06-11.55.42:466][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021114s)
+[2024.07.06-11.55.42:467][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CryptExplorer/Dungeon.Dungeon to /Game/CryptExplorer/UEDPIE_0_Dungeon.Dungeon (0.021151s)
+[2024.07.06-11.55.42:467][999]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.06-11.55.42:467][999]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.06-11.55.42:467][999]LogAIModule: Creating AISystem for world Dungeon
+[2024.07.06-11.55.42:467][999]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2024.07.06-11.55.42:490][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.07.06-11.55.42:492][999]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.07.06-11.55.42:492][999]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.06-11.55.42:492][999]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.06-11.55.42:492][999]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.06-11.55.42:492][999]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.06-11.55.42:492][999]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.06-11.55.42:492][999]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.07.06-11.55.42:492][999]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.06-11.55.42:492][999]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.06-11.55.42:492][999]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.06-11.55.42:492][999]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.06-11.55.42:492][999]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.06-11.55.42:494][999]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.06-11.55.42:554][999]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2024.07.06-11.55.42:554][999]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.06-11.55.42:554][999]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.06-11.55.42:554][999]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.06-11.55.42:555][999]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.07.06-11.55.42:555][999]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.07.06-11.55.42:556][999]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.07.06-11.55.42:556][999]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.07.06-11.55.42:556][999]LogInit: FAudioDevice initialized with ID 9.
+[2024.07.06-11.55.42:556][999]LogAudio: Display: Audio Device (ID: 9) registered with world 'Dungeon'.
+[2024.07.06-11.55.42:556][999]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.07.06-11.55.42:559][999]LogLoad: Game class is 'BP_CryptExplorerGameMode_C'
+[2024.07.06-11.55.42:571][999]LogWorld: Bringing World /Game/CryptExplorer/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2024.07.06-12.55.42
+[2024.07.06-11.55.42:571][999]LogWorld: Bringing up level for play took: 0.012215
+[2024.07.06-11.55.42:573][999]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.07.06-11.55.42:574][999]PIE: Server logged in
+[2024.07.06-11.55.42:574][999]PIE: Play in editor total start time 0.151 seconds.
+[2024.07.06-11.55.42:810][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:810][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:810][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:811][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:812][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:812][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:812][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:813][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:813][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:814][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:814][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:815][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:815][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:815][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:816][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:816][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:817][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:817][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:818][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:818][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:818][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.55.42:819][999]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:296][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.06-11.56.25:296][342]LogWorld: BeginTearingDown for /Game/CryptExplorer/UEDPIE_0_Dungeon
+[2024.07.06-11.56.25:296][342]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2024.07.06-11.56.25:298][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.06-11.56.25:302][342]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.06-11.56.25:307][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.06-11.56.25:352][342]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.06-11.56.25:352][342]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.07.06-11.56.25:352][342]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.07.06-11.56.25:354][342]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.07.06-11.56.25:358][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.06-11.56.25:362][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.07.06-11.56.25:377][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:378][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:378][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:378][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:379][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:379][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:380][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:380][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:381][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:381][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:382][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:382][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:383][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:383][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:384][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:384][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:384][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:385][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:385][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:386][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:386][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:386][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.06-11.56.25:398][343]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.07.06-11.56.27:979][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.07.06-11.56.39:641][178]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.06-11.56.39:735][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.07.06-11.56.39:783][178]LogSavePackage: Moving output files for package: /Game/CryptExplorer/Dungeon
+[2024.07.06-11.56.39:783][178]LogSavePackage: Moving '../../../../../Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Saved/DungeonF19C9EB541F58A138F54AF8E7F37F04E.tmp' to '../../../../../Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/CryptExplorer/Dungeon.umap'
+[2024.07.06-11.56.39:792][178]LogFileHelpers: Saving map 'Dungeon' took 0.083
+[2024.07.06-11.56.39:799][178]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 1.01 sec)
+[2024.07.06-11.56.39:805][178]AssetCheck: New page: Asset Save: Dungeon
+[2024.07.06-11.56.39:805][178]LogContentValidation: Display: Validating /Script/Engine.World /Game/CryptExplorer/Dungeon.Dungeon

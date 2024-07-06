@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/SceneComponent.h"
 #include "Engine/World.h"
+#include "DrawDebugHelpers.h"
 #include "Grabber.generated.h"
 
 
@@ -24,6 +25,9 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
+private:
+	float grabRange = 400;
 
 		
 };
