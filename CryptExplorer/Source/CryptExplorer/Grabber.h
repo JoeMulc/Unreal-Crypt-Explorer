@@ -29,5 +29,7 @@ public:
 private:
 	float grabRange = 400;
 
+	UPROPERTY(EditAnywhere) float grabRadius = 100;
+
 		
 };
