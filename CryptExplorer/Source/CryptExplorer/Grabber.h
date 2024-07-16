@@ -35,7 +35,7 @@ private:
 
 	UPROPERTY(EditAnywhere) float grabRadius = 100;
 
-	UPROPERTY(EditAnywhere) float holdDistance = 200;
+	UPROPERTY(EditAnywhere) float holdDistance = 100;
 
 	UPhysicsHandleComponent* GetPhysicsHandle() const
 	{
