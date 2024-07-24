@@ -1,4 +1,4 @@
-D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\Intermediate\Build\Win64\UnrealEditor\Inc\CryptExplorer\UHT\Grabber.gen.cpp
+D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\Intermediate\Build\Win64\UnrealEditor\Inc\CryptExplorer\UHT\TriggerComponent.gen.cpp
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I ..\Shaders\Shared
@@ -294,8 +294,8 @@ D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\Intermediate\Build\W
 /FI"D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptExplorer\Definitions.CryptExplorer.h"
 /Yu"D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\Intermediate\Build\Win64\x64\CryptExplorerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
 /Fp"D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\Intermediate\Build\Win64\x64\CryptExplorerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
-/Fo"D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptExplorer\Grabber.gen.cpp.lc.obj"
-/sourceDependencies"D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptExplorer\Grabber.gen.cpp.dep.lc.json"
+/Fo"D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptExplorer\TriggerComponent.gen.cpp.obj"
+/sourceDependencies D:\Unreal\CryptExplorer\Unreal-Crypt-Explorer\CryptExplorer\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptExplorer\TriggerComponent.gen.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi

@@ -31,7 +31,7 @@ public:
 	UFUNCTION(BlueprintCallable) void Release();
 
 private:
-	UPROPERTY(EditAnywhere) float grabRange = 400;
+	UPROPERTY(EditAnywhere) float grabRange = 150;
 
 	UPROPERTY(EditAnywhere) float grabRadius = 100;
 

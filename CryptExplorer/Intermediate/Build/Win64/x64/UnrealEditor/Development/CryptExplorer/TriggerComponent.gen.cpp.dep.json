@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal\\cryptexplorer\\unreal-crypt-explorer\\cryptexplorer\\intermediate\\build\\win64\\unrealeditor\\inc\\cryptexplorer\\uht\\triggercomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\cryptexplorer\\unreal-crypt-explorer\\cryptexplorer\\intermediate\\build\\win64\\x64\\cryptexplorereditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "d:\\unreal\\cryptexplorer\\unreal-crypt-explorer\\cryptexplorer\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cryptexplorer\\definitions.cryptexplorer.h",
+            "d:\\unreal\\cryptexplorer\\unreal-crypt-explorer\\cryptexplorer\\source\\cryptexplorer\\triggercomponent.h",
+            "d:\\apps\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "d:\\apps\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\apps\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\apps\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
+            "d:\\unreal\\cryptexplorer\\unreal-crypt-explorer\\cryptexplorer\\source\\cryptexplorer\\mover.h",
+            "d:\\unreal\\cryptexplorer\\unreal-crypt-explorer\\cryptexplorer\\intermediate\\build\\win64\\unrealeditor\\inc\\cryptexplorer\\uht\\mover.generated.h",
+            "d:\\unreal\\cryptexplorer\\unreal-crypt-explorer\\cryptexplorer\\intermediate\\build\\win64\\unrealeditor\\inc\\cryptexplorer\\uht\\triggercomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

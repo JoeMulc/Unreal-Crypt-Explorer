@@ -96,5 +96,11 @@
     <ClInclude Include="..\..\Source\CryptExplorer\TP_WeaponComponent.h">
       <Filter>Source\CryptExplorer</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\CryptExplorer\TriggerComponent.cpp">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptExplorer\TriggerComponent.h">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

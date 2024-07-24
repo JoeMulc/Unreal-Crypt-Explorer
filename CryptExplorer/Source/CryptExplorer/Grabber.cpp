@@ -43,13 +43,28 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 		return;
 	}
 
-	FVector TargetLocation = GetComponentLocation() + GetForwardVector() * holdDistance;
-	physicsHandle->SetTargetLocationAndRotation(TargetLocation, GetComponentRotation());
+	if (physicsHandle != nullptr)
+	{
+		FVector TargetLocation = GetComponentLocation() + GetForwardVector() * holdDistance;
+		physicsHandle->SetTargetLocationAndRotation(TargetLocation, GetComponentRotation());
+	}
 }
 
 void UGrabber::Release()
 {
-	UE_LOG(LogTemp, Display, TEXT("Released"));
+	UPhysicsHandleComponent* physicsHandle = GetPhysicsHandle();
+	if (physicsHandle == nullptr)
+	{
+		return;
+	}
+
+	if (physicsHandle->GetGrabbedComponent() != nullptr)
+	{
+		physicsHandle->GetGrabbedComponent()->WakeAllRigidBodies();
+		physicsHandle->GetGrabbedComponent()->GetOwner()->Tags.Remove("Grabbed");
+		physicsHandle->GetGrabbedComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Block);
+		physicsHandle->ReleaseComponent();
+	}
 }
 
 void UGrabber::Grab()
@@ -73,6 +88,10 @@ void UGrabber::Grab()
 		//UE_LOG(LogTemp, Display, TEXT("Hit Actor: %s"), *hitActor->GetActorNameOrLabel());
 		//
 		//DrawDebugSphere(GetWorld(), hitResult.ImpactPoint, 50, 16, FColor::Red, false, 5);
+
+		hitResult.GetComponent()->WakeAllRigidBodies();
+		hitResult.GetComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
+		hitResult.GetActor()->Tags.Add("Grabbed");
 
 		physicsHandle->GrabComponentAtLocationWithRotation(
 			hitResult.GetComponent(),
