@@ -45,6 +45,12 @@
     <Filter Include="Source\CryptExplorer">
       <UniqueIdentifier>{C88BFFDF-D6D0-39F7-8204-AE8172F2743D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\CryptExplorer\CryptDoor.cpp">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptExplorer\CryptDoor.h">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClInclude>
     <None Include="..\..\Source\CryptExplorer\CryptExplorer.Build.cs">
       <Filter>Source\CryptExplorer</Filter>
     </None>
@@ -82,6 +88,24 @@
       <Filter>Source\CryptExplorer</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CryptExplorer\Mover.h">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptExplorer\NewBoxComponent.cpp">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptExplorer\NewBoxComponent.h">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptExplorer\PuzzleMaster.cpp">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptExplorer\PuzzleMaster.h">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CryptExplorer\StatuePuzzleBoxComponent.cpp">
+      <Filter>Source\CryptExplorer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CryptExplorer\StatuePuzzleBoxComponent.h">
       <Filter>Source\CryptExplorer</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\CryptExplorer\TP_PickUpComponent.cpp">

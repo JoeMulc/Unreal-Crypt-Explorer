@@ -93,6 +93,12 @@ void UGrabber::Grab()
 		hitResult.GetComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
 		hitResult.GetActor()->Tags.Add("Grabbed");
 
+		UPrimitiveComponent* component = Cast<UPrimitiveComponent>(hitResult.GetActor()->GetRootComponent());
+		if (component != nullptr)
+		{
+			component->SetSimulatePhysics(true);
+		}
+
 		physicsHandle->GrabComponentAtLocationWithRotation(
 			hitResult.GetComponent(),
 			NAME_None,

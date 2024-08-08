@@ -34,7 +34,7 @@ void UMover::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponent
 	//AActor* owner = GetOwner();
 	//FString ownerString = owner->GetActorNameOrLabel();
 	//
-	//UE_LOG(LogTemp, Display, TEXT("owner: %s"), *ownerString);
+	
 
 	if (shouldMove)
 	{

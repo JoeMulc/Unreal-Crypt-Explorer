@@ -28,13 +28,10 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 		{
 			component->SetSimulatePhysics(false);
 		}
-		actor->AttachToComponent(this, FAttachmentTransformRules::KeepWorldTransform);
+		//actor->AttachToComponent(this, FAttachmentTransformRules::KeepWorldTransform);
+		FName socketName = "StatueHolder";
+		actor->AttachToActor(this->GetOwner(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, socketName);
 		mover->setShouldMove(true);
-	}
-	else
-	{
-		UE_LOG(LogTemp, Display, TEXT("Locking door"));
-		mover->setShouldMove(false);
 	}
 }
 
@@ -55,7 +52,6 @@ AActor* UTriggerComponent::GetAcceptableActor() const
 		{
 			if (actor->ActorHasTag(keyTag) && !actor->ActorHasTag("Grabbed"))
 			{
-				
 				return actor;
 			}
 		}

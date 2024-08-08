@@ -14,7 +14,18 @@
 				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/BP_Statue_Pickup.uasset",
 				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/FirstPerson/Input/IMC_Default.uasset",
 				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/IA_Grab.uasset",
-				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/BP_SecretWall.uasset"
+				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/BP_SecretWall.uasset",
+				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/MedievalDungeon/Meshes/Architecture/Crypt/SM_Crypt_Wall_Decorative_B.uasset",
+				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/BP_Lock.uasset",
+				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/BP_LockedDoor.uasset",
+				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/MedievalDungeon/Meshes/Props/SM_Lock_Closed.uasset",
+				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/MedievalDungeon/Meshes/Architecture/Dungeon/SM_DoorWay_Large_Door_Right.uasset",
+				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/BP_Door_With_Lock.uasset",
+				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/BP_Key.uasset",
+				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/BP_PuzzleStatueHolder.uasset",
+				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/MedievalDungeon/Meshes/Props/SM_Gargoyle_Statue_Stand.uasset",
+				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/BP_CryptDoor.uasset",
+				"D:/Unreal/CryptExplorer/Unreal-Crypt-Explorer/CryptExplorer/Content/BP_CryptDoorC.uasset"
 			]
 		}
 	]
