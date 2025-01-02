@@ -43,8 +43,10 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 		return;
 	}
 
+	
 	if (physicsHandle != nullptr)
 	{
+		//Updates location of held object
 		FVector TargetLocation = GetComponentLocation() + GetForwardVector() * holdDistance;
 		physicsHandle->SetTargetLocationAndRotation(TargetLocation, GetComponentRotation());
 	}
@@ -52,14 +54,17 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 void UGrabber::Release()
 {
+	
 	UPhysicsHandleComponent* physicsHandle = GetPhysicsHandle();
 	if (physicsHandle == nullptr)
 	{
 		return;
 	}
 
+	
 	if (physicsHandle->GetGrabbedComponent() != nullptr)
 	{
+		//Releases object and resets the object
 		physicsHandle->GetGrabbedComponent()->WakeAllRigidBodies();
 		physicsHandle->GetGrabbedComponent()->GetOwner()->Tags.Remove("Grabbed");
 		physicsHandle->GetGrabbedComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Block);
@@ -70,20 +75,25 @@ void UGrabber::Release()
 void UGrabber::Grab()
 {
 	UPhysicsHandleComponent *physicsHandle = GetPhysicsHandle();
+
+	//checks for null pointer
 	if (physicsHandle == nullptr)
 	{
 		return;
 	}
 
+	//fires a ray along the players sightline
 	FVector start = GetComponentLocation();
 	FVector end = start + GetForwardVector() * grabRange;
 	FHitResult hitResult;
-
 	DrawDebugLine(GetWorld(), start, end, FColor::Red);
+	//Only checks the "grabbable trace channel"
 	bool hasHit = GetWorld()->SweepSingleByChannel(hitResult, start, end, FQuat::Identity, ECollisionChannel::ECC_GameTraceChannel2, FCollisionShape::MakeSphere(grabRadius));
 
+	//if the ray hit something
 	if (hasHit)
 	{
+		//Wakes grabbed object 
 		hitResult.GetComponent()->WakeAllRigidBodies();
 		hitResult.GetComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
 		hitResult.GetActor()->Tags.Add("Grabbed");
@@ -94,6 +104,7 @@ void UGrabber::Grab()
 			component->SetSimulatePhysics(true);
 		}
 
+		//grabs component
 		physicsHandle->GrabComponentAtLocationWithRotation(
 			hitResult.GetComponent(),
 			NAME_None,
