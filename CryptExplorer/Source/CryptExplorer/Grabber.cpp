@@ -84,11 +84,6 @@ void UGrabber::Grab()
 
 	if (hasHit)
 	{
-		//AActor* hitActor = hitResult.GetActor();
-		//UE_LOG(LogTemp, Display, TEXT("Hit Actor: %s"), *hitActor->GetActorNameOrLabel());
-		//
-		//DrawDebugSphere(GetWorld(), hitResult.ImpactPoint, 50, 16, FColor::Red, false, 5);
-
 		hitResult.GetComponent()->WakeAllRigidBodies();
 		hitResult.GetComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
 		hitResult.GetActor()->Tags.Add("Grabbed");
